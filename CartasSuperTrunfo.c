@@ -31,7 +31,9 @@ int main() {
     /*ENTRADA E LEITURA*/
     /*CARTA 1*/
 
-    printf("---[Cadastrando | Carta 1]\n");
+    printf("*** SUPER TRUNFO ***\n");
+
+    printf("---[Cadastrando | Primeira carta]\n");
 
     printf("Digite o Estado (Letra 'A' a 'H'):\n");
     scanf(" %c",&estado); 
@@ -62,7 +64,7 @@ int main() {
 
     /*CARTA 2*/
 
-    printf("---[Cadastrando | Carta 2]\n");
+    printf("---[Cadastrando | Segunda carta]\n");
 
     printf("Digite o Estado (Letra 'A' a 'H'):\n");
     scanf(" %c",&estado2);
