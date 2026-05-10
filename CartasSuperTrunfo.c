@@ -11,6 +11,8 @@ int main() {
     float area;
     float pib;
     int turistico;
+    float habitantes;
+    float percap;
 
     /*VARIAVEIS - Estado 2*/
 
