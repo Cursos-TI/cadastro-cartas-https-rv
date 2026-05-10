@@ -3,6 +3,7 @@
 int main() {
 
     /*VARIAVEIS - Estado 1*/
+    // o projeto padrão fala de população, porem a variavel adicionada foi habitantes
 
     char estado;
     char codigo_carta[3];
@@ -53,6 +54,8 @@ int main() {
     printf("A quantidade de Pontos Turisticos na cidade:\n");
     scanf("%d", &turistico);
 
+    // calculo de densidade e percapta
+
     densidade = habitantes/area;
     percap = pib/habitantes;
 
@@ -81,6 +84,8 @@ int main() {
 
     printf("A quantidade de Pontos Turisticos na cidade:\n");
     scanf("%d", &turistico2);
+
+    // calculo de densidade e percapta
 
     densidade2 = habitantes2/area2;
     percap2 = pib2/habitantes2;
